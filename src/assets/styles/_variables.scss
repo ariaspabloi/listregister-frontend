@@ -1,0 +1,24 @@
+@use 'sass:math';
+
+/* Colors */
+
+
+/* Font sizes */
+$font-size: 1em; // 16px
+$font-size-xxl: $font-size * 4; // 64px
+$font-size-xl: $font-size * 3; // 48px
+$font-size-l: $font-size * 2; // 32px
+$font-size-m: 1.25em; // 20px
+$font-size-s: 0.875em; // 14px
+$font-size-xs: 0.75em; // 12px
+
+/* Spacing */
+$space: 8px;
+$space-small: math.div($space, 2); // 4px
+$space-xs: $space * 2; // 16px
+$space-s: $space * 3; // 24px
+$space-m: $space * 4; // 32px
+$space-l: $space * 5; // 40px
+$space-xl: $space * 6; // 48px
+$space-big: $space * 8; // 64px
+$space-extra-big: $space * 16; // 128px
